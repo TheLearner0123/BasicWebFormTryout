@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FORM TO BE FILL UP</title>
+    <link rel="stylesheet" href="form.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@700&family=Josefin+Sans:wght@700&family=Lobster&family=Rubik+Moonrocks&display=swap"
+        rel="stylesheet">
+    <style>
+        *{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+option{
+    border-radius: 5px;
+    background-color:  rgb(69, 69, 69);
+    color: #fafafa;
+}
+select{
+    mix-blend-mode: exclusion;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:  rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(234, 227, 219, 0.865);
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-origin:inherit;
+    background-image: url(teahub.io-smoking-hd-wallpapers-1080p-3658801.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    animation: exc 5s linear;
+    /*background: linear-gradient(180deg,#040404,#ffffff);*/
+    background-color:  #040404;
+    animation-iteration-count: 1;
+}
+@keyframes exc {
+    from{background-color: #fdfdfd;}
+    to{background-color: #040404;}
+}  
+
+#login{
+    font-family: 'Montserrat', sans-serif;
+}
+.signup{
+    width: fit-content;
+    mix-blend-mode:exclusion;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    text-align:center;
+    margin: 100px 425px 0px 425px;
+    padding: 50px;
+    border-radius: 25px;
+    color: #dedcdc;
+    background-color: rgb(69, 69, 69);
+    animation: signup 4s linear;
+    animation-timing-function: ease-in-out;
+    opacity: 60%;
+    transition: 0s;
+    -webkit-transition: 1s;
+}
+@keyframes signup{
+from{bottom:-700px;opacity: 0%;background-color: #dedcdc;color: rgb(86, 83, 83);}
+to{bottom: 0px;opacity: 60%;background-color: rgb(69, 69, 69);color: #dedcdc;}
+}
+
+#names{
+    position: relative;
+    margin: 2px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+h2{
+    mix-blend-mode:lighten;
+    content: '';
+    background-color: #040404;
+    color: rgb(139, 132, 132);
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    opacity: 80%;
+    margin-left: 590px;
+    margin-right: 590px;
+    transition: 1s;
+    -webkit-transition: ease-in 1s;
+    font-family: 'Montserrat', sans-serif;
+    animation: exx 3s linear;
+    animation-iteration-count: 1;
+}
+@keyframes exx {
+    from{left:-700px;opacity:0%;/*background-color:#fdfdfd;*/animation: ease-in-out;color: #040404;}
+    to{left: 0px;opacity: 80%;/*background-color: #040404;*/animation: ease-in-out;color: #dedcdc;}
+}
+h2:hover{
+    color: white;
+    opacity: 100%;
+    transition: ease-in 1s; 
+}
+.signup:hover{
+    margin-top: 60px;
+    opacity: 100%;
+    transition: ease-in 1s;
+}
+.signup::after{
+    margin-top: auto;
+    opacity: 100%;
+    transition: ease-in 1s;
+}
+#same{
+    position: relative;
+    margin: 0px 1px 0px 2px;
+}
+label
+{
+    font-family:  'Lobster', cursive;
+}
+::placeholder{
+    font-family:'Lobster', cursive;
+}
+p{
+    color: bisque;
+    font-size: 16px;
+    font-family:'Lobster', cursive;
+}
+   
+input{
+    /*mix-blend-mode:luminosity;*/
+    padding:5px;
+    color: white;
+    background-color: #0a0909;
+    border: 1px solid rgba(234, 227, 219, 0.865);
+    border-radius: 5px;
+}
+#log{
+    padding: 20px;
+    margin-left: 55px;
+    border-radius: 10px;
+}
+.but{
+    mix-blend-mode:luminosity;
+}
+#log:hover{
+    font-size: 12px;
+    transition: ease-in 0.2s;
+    inset: 1em;
+    background-color: #fafafa;
+    color: #040404;
+    cursor: pointer;
+}
+
+#taa{
+    background-color: rgb(69, 69, 69);
+    color: #fafafa;
+    border: 1px solid rgba(234, 227, 219, 0.865);
+    border-radius: 5px;
+    mix-blend-mode:lighten;
+}
+div{
+    display: block;
+}
+#file{
+    mix-blend-mode: exclusion;
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="whole">
+        <h2><b>ACCOUNT CREATE FORM</b></h2>
+
+
+        <div class="signup">
+
+            <form action="login.php" id="login" method="post" autocomplete="on" target="_blank">
+                <label for="" id="names">First Name</label><label for="" id="names">Middle Name</label><label for=""
+                    id="names">Last Name</label>
+                <br>
+                <input type="text" name="firstname" id="same" placeholder="First Name" required><input type="text"
+                    placeholder="Middle Name" id="same"><input type="text" placeholder="Last Name" id="same" required>
+                <br><br>
+
+                <label for="">Father's Name</label>
+                <br>
+                <input type="text" placeholder="Father's Name" required>
+                <br><br>
+
+                <label for="birthday">Select Your Birth Date</label>
+                <br>
+                <input type="date" id="bd" value="birthday" required>
+                <br><br>
+
+                <p><b>Select Your Gender</b></p>
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+                <br><br>
+
+                <label for="textarea" id="ta">Enter Your Address</label>
+                <textarea name="Description" id="taa" cols="30" rows="4" type="input"></textarea>
+                <br><br>
+
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your email-address" required>
+                <br><br>
+
+                <label for="ph">Phone Number</label>
+                <input type="tel" placeholder="Enter your phone number" pattern="[0-9]{5}[0-9]{5}" required>
+                <br><br>
+
+                <label for="">User Name</label>
+                <input type="text" name="username" id="uname" placeholder="Enter a username" required>
+
+                <br><br>
+
+                <label for="">Password</label>
+                <input type="text" name="password" id="pword" placeholder="Enter a password" required>
+                <br><br>
+
+                <label for="state">Choose Your State</label>
+                <select name="state" id="st" required>
+                    <option value="Select your state">Select Your State</option>
+                    <option value="West Bengal">West Bengal</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Goa">Goa</option>
+                </select>
+                <br><br>
+                <p><b>How many accounts you've</b></p>
+                <label for="accounts">Select the number of account you've</label>
+                <input type="number" id="number" name="number" min="1" max="5">
+                <br><br>
+                <p><b>Select The Services you want</b></p>
+                <input type="checkbox" name="services" id="service1">
+                <label for="service1">Debit Card</label><br>
+                <input type="checkbox" name="services" id="service2">
+                <label for="service2">Crdit Card</label><br>
+                <input type="checkbox" name="services" id="service3">
+                <label for="service3">Internet Banking</label><br>
+                <input type="checkbox" name="services" id="service4">
+                <label for="service4">Passbook</label><br>
+                <br><br>
+
+                <p><b>Select Your Card Colour</b></p>
+                <label for="card">Colour</label>
+                <input type="color" name="card" id="colour">
+                <br><br>
+
+                <p><b>Identity Proof</b></p>
+                <input type="file" id="file" required>
+                <br><br>
+                <p><b>How much do you rate this one</b></p>
+                <label for="accounts">Select here</label>
+                <input type="range" id="number" name="number" min="1" max="5">
+                <br><br>
+                <div class="but">
+                    <input type="submit" name="log" id="log" value="Submit">
+                    <input type="reset" id="log">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
