@@ -1,0 +1,163 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+option{
+    border-radius: 5px;
+    background-color:  rgb(69, 69, 69);
+    color: #fafafa;
+}
+select{
+    mix-blend-mode: exclusion;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:  rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(234, 227, 219, 0.865);
+}
+
+body{
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+    background-origin:inherit;
+    background-image: url(teahub.io-smoking-hd-wallpapers-1080p-3658801.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    animation: exc 5s linear;
+    /*background: linear-gradient(180deg,#040404,#ffffff);*/
+    background-color:  #040404;
+    animation-iteration-count: 1;
+}
+@keyframes exc {
+    from{background-color: #fdfdfd;}
+    to{background-color: #040404;}
+}  
+
+#login{
+    font-family: 'Montserrat', sans-serif;
+}
+.signup{
+    width: fit-content;
+    mix-blend-mode:exclusion;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    text-align:center;
+    margin: 100px 425px 0px 425px;
+    padding: 50px;
+    border-radius: 25px;
+    color: #dedcdc;
+    background-color: rgb(69, 69, 69);
+    animation: signup 4s linear;
+    animation-timing-function: ease-in-out;
+    opacity: 60%;
+    transition: 0s;
+    -webkit-transition: 1s;
+}
+@keyframes signup{
+from{bottom:-700px;opacity: 0%;background-color: #dedcdc;color: rgb(86, 83, 83);}
+to{bottom: 0px;opacity: 60%;background-color: rgb(69, 69, 69);color: #dedcdc;}
+}
+
+#names{
+    position: relative;
+    margin: 2px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+h2{
+    mix-blend-mode:lighten;
+    content: '';
+    background-color: #040404;
+    color: rgb(139, 132, 132);
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    opacity: 80%;
+    margin-left: 590px;
+    margin-right: 590px;
+    transition: 1s;
+    -webkit-transition: ease-in 1s;
+    font-family: 'Montserrat', sans-serif;
+    animation: exx 3s linear;
+    animation-iteration-count: 1;
+}
+@keyframes exx {
+    from{left:-700px;opacity:0%;/*background-color:#fdfdfd;*/animation: ease-in-out;color: #040404;}
+    to{left: 0px;opacity: 80%;/*background-color: #040404;*/animation: ease-in-out;color: #dedcdc;}
+}
+h2:hover{
+    color: white;
+    opacity: 100%;
+    transition: ease-in 1s; 
+}
+.signup:hover{
+    margin-top: 60px;
+    opacity: 100%;
+    transition: ease-in 1s;
+}
+.signup::after{
+    margin-top: auto;
+    opacity: 100%;
+    transition: ease-in 1s;
+}
+#same{
+    position: relative;
+    margin: 0px 1px 0px 2px;
+}
+label
+{
+    font-family:  'Lobster', cursive;
+}
+::placeholder{
+    font-family:'Lobster', cursive;
+}
+p{
+    color: bisque;
+    font-size: 16px;
+    font-family:'Lobster', cursive;
+}
+   
+input{
+    /*mix-blend-mode:luminosity;*/
+    padding:5px;
+    color: white;
+    background-color: #0a0909;
+    border: 1px solid rgba(234, 227, 219, 0.865);
+    border-radius: 5px;
+}
+#log{
+    padding: 20px;
+    margin-left: 55px;
+    border-radius: 10px;
+}
+.but{
+    mix-blend-mode:luminosity;
+}
+#log:hover{
+    font-size: 12px;
+    transition: ease-in 0.2s;
+    inset: 1em;
+    background-color: #fafafa;
+    color: #040404;
+    cursor: pointer;
+}
+
+#taa{
+    background-color: rgb(69, 69, 69);
+    color: #fafafa;
+    border: 1px solid rgba(234, 227, 219, 0.865);
+    border-radius: 5px;
+    mix-blend-mode:lighten;
+}
+div{
+    display: block;
+}
+#file{
+    mix-blend-mode: exclusion;
+}
